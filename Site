@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fan Funt Store</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #1f07f8;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+      }
+      .item {
+        width: 33.33%;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+      h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 14px;
+        color: #333;
+      }
+      button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fan Fut Store</h1>
+      <div class="row">
+        <div class="item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM0SNvtIyG_ivGCHsdcTmAMDb3weJ5GW0ORw&usqp=CAU" width="50" height="100" alt="Blusa">
+          <h2>Blusa Internacional</h2>
+          <p>Preço: R$140,00</p>
+          <a href="https://www.instagram.com/p/CeyryX4OKIb/" target="_blank">
+          <button>Adicionar ao Carrinho</button>
+        </a>
+        </div>
+        <div class="item">
+          <img src="data:image/jpeg;base64,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"  alt="Calça">
+          <h2>Blusa Cruzeiro</h2>
+          <p>Preço: R$70,00</p>
+          <a href="https://www.instagram.com/p/CaDVBGDOmtc/" target="_blank">
+          <button>Adicionar ao Carrinho</button>
+        </div>
+        </a>
+        <div class="item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ253P4iqy_WLGN6jwFgadHWWda39PiDUuq4Q&usqp=CAU" alt="Sapato">
+          <h2>Blusa do Atletico</h2>
+          <p>Preço: R$100,00</p>
+          <button>Adicionar ao Carrinho</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <body>
+    <div class="container">
+      <h1>Fan Fut Store</h1>
+      <div class="row">
+        <div class="item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM0SNvtIyG_ivGCHsdcTmAMDb3weJ5GW0ORw&usqp=CAU" width="50" height="100" alt="Blusa">
+          <h2>Blusa Internacional</h2>
+          <p>Preço: R$140,00</p>
+          <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="item">
+          <img src="data:image/jpeg;base64,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" alt="Calça">
+          <h2>Blusa Cruzeiro</h2>
+          <p>Preço: R$70,00</p>
+          <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ253P4iqy_WLGN6jwFgadHWWda39PiDUuq4Q&usqp=CAU" alt="Sapato">
+          <h2>Blusa do Atletico</h2>
+          <p>Preço: R$100,00</p>
+          <button>Adicionar ao Carrinho</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
